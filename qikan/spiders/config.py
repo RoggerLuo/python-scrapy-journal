@@ -3,13 +3,24 @@ import json
 import requests
 import os
 import sys
+import scrapy
 
 apiAddress = 'http://47.99.79.11:8081'
+proxyServer = "transfer.mogumiao.com:9001"
+proxyAuth = "Basic " + 'dWlXQnlhUzZ5dnoxeFJESTpZdjc2R3hRbGVYNXlYaWR6'
 
 class Config(object):
     pdf_url = '/opt/crawler/paper_python_crawler/qikan/document/pdf/'
     img_url = 'dev/null'#'/Users/RogersMac/WorkHtgk/qikan/qikan/document/img/'
 
+def proxyRequest(url,meta,callback,headers={}):
+    proxy = {"http": "http://" + proxyServer, "https": "https://" + proxyServer}
+    meta["proxies"] = proxy
+    headers["Proxy-Authorization"] = proxyAuth  
+    # if headers == False:
+    #     return scrapy.Request(url=url,meta=meta,callback=callback)
+    # else:
+    return scrapy.Request(url=url,meta=meta,callback=callback,headers=headers)
 
 def matchPaper(item):
     print('----------post matchPaper--------------------------------------------------')

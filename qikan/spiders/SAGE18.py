@@ -3,7 +3,7 @@ import scrapy
 from qikan.items import QikanItem
 import re
 import time
-from .config import Config,postItemWithPdf,postItem
+from .config import Config,postItemWithPdf,postItem,proxyRequest
 
 
 class Sage18Spider(scrapy.Spider):
@@ -19,7 +19,7 @@ class Sage18Spider(scrapy.Spider):
             0]
 
         for i in range(len(hrefs)):
-            yield scrapy.Request(url=self.base_url + hrefs[i], meta={'annualVolume': volume}, callback=self.parse2)
+            yield proxyRequest(url=self.base_url + hrefs[i], meta={'annualVolume': volume}, callback=self.parse2)
 
     def parse2(self, response):
         item = QikanItem()
@@ -135,7 +135,7 @@ class Sage18Spider(scrapy.Spider):
                 "//div[@class='rightMobileMenuButton articleToolsButton PDFTool pdf-access redButton smallButton']/a/@href").extract()[
                 0]
             item['pdf'] = self.base_url + pdf
-            yield scrapy.Request(url=self.base_url + pdf, meta={'filename': pdf.split('/')[-1] + '.pdf'}, headers=header,
+            yield proxyRequest(url=self.base_url + pdf, meta={'filename': pdf.split('/')[-1] + '.pdf'}, headers=header,
                                  callback=postItemWithPdf(item)
 )
         else:

@@ -9,7 +9,7 @@ from scrapy import signals
 
 
 proxyServer = "transfer.mogumiao.com:9001"
-proxyAuth = "Basic " + 'MmhvQWdDUTM1UzRRTzNaSDpuMXhselNyYkFiZG9hRmlk'
+proxyAuth = "Basic " + 'dWlXQnlhUzZ5dnoxeFJESTpZdjc2R3hRbGVYNXlYaWR6'
 
 class ProxyMiddleware(object):
     def process_request(self, request, spider):
