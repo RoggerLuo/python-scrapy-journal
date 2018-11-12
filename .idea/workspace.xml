@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b316fc05-8056-496e-9b6c-cdbb78f137f2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SAGE2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import scrapy\n\n</find>
+      <find>import scrapy from qikan.items import QikanItem import re import time</find>
+      <find>\# yield scrapy\.Request\(url\=self\.base_url \+ pdf\, meta\=\{\'filename\'\: pdf\.split\(\'\/\'\)\[\-1\] \+ \'\.pdf\'\}\, headers\=header\,\n            \#                      callback\=self\.downloadpdf\)</find>
+      <find># yield scrapy.Request</find>
+      <find># yield scrapy.Request(url=self.base_url + pdf, meta={'filename': pdf.split('/')[-1]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>import scrapy from qikan.items import QikanItem import re import time</replace>
+      <replace>import scrapy</replace>
+      <replace>yield scrapy.Request(url=self.base_url + pdf, meta={'filename': pdf.split('/')[-1] + '.pdf'}, headers=header,                                  callback=self.downloadpdf)</replace>
+      <replace>yield scrapy.Request</replace>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE150.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE151.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE152.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE153.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE154.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE155.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE156.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE157.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE158.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE159.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE160.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE161.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE162.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE163.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE164.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE165.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE166.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE167.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE168.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE169.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE170.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE171.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE172.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE173.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE174.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE175.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE176.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE177.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE178.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE179.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE180.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE181.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE182.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE183.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE184.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE185.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE186.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE187.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE188.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE189.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE190.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE191.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE192.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE193.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE194.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE195.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE196.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE197.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE198.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE199.py" />
+        <option value="$PROJECT_DIR$/qikan/spiders/SAGE200.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qikan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qikan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qikan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qikan" type="462c0819:PsiDirectoryNode" />
+              <item name="qikan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qikan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qikan" type="462c0819:PsiDirectoryNode" />
+              <item name="qikan" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b316fc05-8056-496e-9b6c-cdbb78f137f2" name="Default" comment="" />
+      <created>1538543111063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538543111063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5006418" side_tool="true" weight="0.9346991" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49935815" visible="true" weight="0.48440066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2205438" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32991013" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32991013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE151.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE152.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="37" lean-forward="true" selection-start-line="138" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE153.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="139" column="34" selection-start-line="138" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE154.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="36" selection-start-line="138" selection-start-column="35" selection-end-line="139" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE155.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="139" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE156.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="40" selection-start-line="138" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE157.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="42" selection-start-line="138" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE158.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="140" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE159.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="37" selection-start-line="138" selection-start-column="36" selection-end-line="139" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE160.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="140" column="40" selection-start-line="139" selection-start-column="39" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE161.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="137" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE162.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="137" column="35" selection-start-line="136" selection-start-column="34" selection-end-line="137" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE163.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="137" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE164.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="117" column="33" lean-forward="true" selection-start-line="116" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE165.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="137" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE166.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="137" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE167.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="137" column="34" selection-start-line="136" selection-start-column="33" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE168.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="137" column="35" lean-forward="true" selection-start-line="136" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE169.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="137" column="41" lean-forward="true" selection-start-line="136" selection-start-column="41" selection-end-line="137" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE170.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="136" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="136" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE171.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="137" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE172.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="138" column="33" lean-forward="true" selection-start-line="137" selection-start-column="33" selection-end-line="138" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE173.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="138" column="42" selection-start-line="137" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE174.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="138" column="45" lean-forward="true" selection-start-line="137" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE175.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="137" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE176.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="138" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE177.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="138" column="43" selection-start-line="137" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE178.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="137" column="40" lean-forward="true" selection-start-line="136" selection-start-column="40" selection-end-line="137" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE179.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="136" column="36" selection-start-line="135" selection-start-column="35" selection-end-line="136" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE180.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="138" column="37" selection-start-line="137" selection-start-column="37" selection-end-line="138" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE182.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="119" column="40" lean-forward="true" selection-start-line="118" selection-start-column="41" selection-end-line="119" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE183.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE184.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="138" column="40" selection-start-line="137" selection-start-column="39" selection-end-line="138" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE185.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="29" lean-forward="true" selection-start-line="138" selection-start-column="30" selection-end-line="139" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE186.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="39" selection-start-line="138" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE187.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE188.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="42" selection-start-line="138" selection-start-column="37" selection-end-line="139" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE189.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="139" column="39" selection-start-line="138" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE190.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="33" selection-start-line="138" selection-start-column="33" selection-end-line="139" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE192.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="41" lean-forward="true" selection-start-line="138" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE193.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE191.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="36" lean-forward="true" selection-start-line="138" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE194.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE195.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE196.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="139" column="35" selection-start-line="138" selection-start-column="34" selection-end-line="139" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE197.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="35" lean-forward="true" selection-start-line="138" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE198.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="139" column="28" lean-forward="true" selection-start-line="138" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE199.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="139" column="27" lean-forward="true" selection-start-line="138" selection-start-column="27" selection-end-line="139" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE200.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="141" column="32" lean-forward="true" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE181.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qikan/spiders/SAGE2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
