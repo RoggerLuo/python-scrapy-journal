@@ -14,10 +14,10 @@ class Config(object):
     img_url = 'dev/null'#'/Users/RogersMac/WorkHtgk/qikan/qikan/document/img/'
 
 def proxyRequest(url,meta,callback,headers={}):
-    proxy = {"http": "http://" + proxyServer, "https": "https://" + proxyServer}
-    meta["proxies"] = proxy
+    # proxy = {"http": "http://" + proxyServer, "https": "https://" + proxyServer}
+    # meta["proxies"] = proxy 
     meta["proxy"] = proxyServer
-    headers["Proxy-Authorization"] = proxyAuth 
+    # headers["Proxy-Authorization"] = proxyAuth 
     headers["Authorization"] = proxyAuth     
     # if headers == False:
     #     return scrapy.Request(url=url,meta=meta,callback=callback)
