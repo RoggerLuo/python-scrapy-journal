@@ -49,7 +49,7 @@ COMMANDS_MODULE = 'qikan.batchCrawl'
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
-   'qikan.middlewares.HtgkProxyMiddleware': 543,
+   # 'qikan.middlewares.HtgkProxyMiddleware': 543,
    'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
    # 'qikan.middlewares.QikanSpiderMiddleware': 543,
 }
@@ -63,7 +63,7 @@ DOWNLOADER_MIDDLEWARES = {
    'scrapy_splash.SplashCookiesMiddleware': 723,
    'scrapy_splash.SplashMiddleware': 725,
    'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
-   'qikan.middlewares.ProxyMiddleware': 555,
+   # 'qikan.middlewares.ProxyMiddleware': 555,
 
 }
 # 去重过滤器
