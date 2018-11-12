@@ -65,23 +65,19 @@ class QikanPipeline(object):
         self.Article = type('article_article', (Base, ArticleTemplate), {'__tablename__': 'article_article'})
 
     def process_item(self, item, spider):
-        # if not hasattr(self,spider.name):
-        # self.Article = type(spider.name, (self.Base, ArticleTemplate), {'__tablename__': spider.name})
-        #
-        if spider.name not in self.engine.table_names():
-            # self.Article = type(spider.name, (self.Base, ArticleTemplate), {'__tablename__': spider.name})
-            self.Article.metadata.create_all(self.engine)
+        postInPipeline(item)
 
+        # if spider.name not in self.engine.table_names():
+        #     self.Article.metadata.create_all(self.engine)
 
-        if not self.sess.query(self.Article).filter_by(title=item['title']).all():
-            self.sess.add(self.Article(**item))
-            self.sess.commit()
+        # if not self.sess.query(self.Article).filter_by(title=item['title']).all():
+        #     self.sess.add(self.Article(**item))
+        #     self.sess.commit()
 
-            if len(item['pdf']) < 15:
-                print('---------save paper---from pipeline--------------------------------------------------')
-                postInPipeline(item)
-        else:
-            print('------检测到重复 from pipeline--------------------------------------------------')
+        #     if len(item['pdf']) < 15:
+        #         print('---------save paper---from pipeline--------------------------------------------------')
+        # else:
+        #     print('------检测到重复 from pipeline--------------------------------------------------')
 
         return item
 

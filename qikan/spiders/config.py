@@ -118,6 +118,12 @@ def postItemWithPdf(item):
 
 
 def postInPipeline(item):
+    if item['pdf'] != 'NULL':
+        print('----- pdf == NULL --跳过Pipeline--------------------------------------------------')
+
+        return
+    print('------无pdf文件--postInPipeline--------------------------------------------------')
+
     if matchPaper(item) == 'true':
         print('已存在重复文献，跳过')
         return
