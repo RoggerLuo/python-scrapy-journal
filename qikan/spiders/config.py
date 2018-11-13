@@ -41,8 +41,11 @@ def matchPaper(item):
         for k, v in f.getheaders():
             print('%s: %s' % (k, v))
         value = f.read().decode('utf-8')
+
+        value=json.loads(value)
+
         print('matchPaperData:', value)
-        return value
+        return value['data']
 
 
 def savePaperPost(item, fileItem):  # 保存文章
@@ -98,7 +101,7 @@ def savePaperPost(item, fileItem):  # 保存文章
 def postItemWithPdf(item):
     def dwnld(response):
         file_path = Config().pdf_url + response.meta['filename']
-        if matchPaper(item) == 'true':
+        if matchPaper(item) == True:
             print('已存在重复文献，跳过')
             return
 
@@ -119,12 +122,12 @@ def postItemWithPdf(item):
 
 def postInPipeline(item):
     if item['pdf'] != 'NULL':
-        print('----- pdf == NULL --跳过Pipeline--------------------------------------------------')
+        print('----- pdf存在 --跳过Pipeline--------------------------------------------------')
 
         return
     print('------无pdf文件--postInPipeline--------------------------------------------------')
 
-    if matchPaper(item) == 'true':
+    if matchPaper(item) == True:
         print('已存在重复文献，跳过')
         return
 
