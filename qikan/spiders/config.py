@@ -7,7 +7,7 @@ import scrapy
 
 apiAddress = 'http://47.99.79.11:8081'
 proxyServer = "http://transfer.mogumiao.com:9001"
-proxyAuth = "Basic " + 'dWlXQnlhUzZ5dnoxeFJESTpZdjc2R3hRbGVYNXlYaWR6'
+proxyAuth = "Basic " + 'Y0tZdUFEc0tEQjNTOHVtNDp0dTQwaUNJUFQ0cWRKMnow'
 
 class Config(object):
     pdf_url = '/opt/crawler/paper_python_crawler/qikan/document/pdf/'
