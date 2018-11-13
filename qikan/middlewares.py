@@ -8,27 +8,6 @@
 from scrapy import signals
 
 
-proxyServer = "transfer.mogumiao.com:9001"
-proxyAuth = "Basic " + 'dWlXQnlhUzZ5dnoxeFJESTpZdjc2R3hRbGVYNXlYaWR6'
-
-class ProxyMiddleware(object):
-    def process_request(self, request, spider):
-        print('---proxy----proxy------proxy------proxy------proxy------proxy---')
-        proxy = {"http": "http://" + proxyServer, "https": "https://" + proxyServer}
-        request.meta["proxies"] = proxy
-        request.headers["Proxy-Authorization"] = proxyAuth  
-# proxy end
-
-class HtgkProxyMiddleware(object):
-    def process_start_requests(self, start_requests, spider):
-        proxy = {"http": "http://" + proxyServer, "https": "https://" + proxyServer}
-
-        for r in start_requests:
-            newR = r.replace(meta={'proxies':proxy},headers={"Proxy-Authorization":proxyAuth})
-            yield newR
-
-
-
 class QikanSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
